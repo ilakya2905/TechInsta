@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+/* common for whole application */
+a{
+  color: black  !important;
+  
+}
+.insta-font{
+  font-family: 'Grand Hotel', cursive;
+}
+
+.black-icon{
+  color: black;
+}
+.full-width{
+  width: 100%;
+}
+
+.padding-class{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+#toast-container{
+  top: 30px !important;
+  position: absolute !important;
+  right: 41% !important;
+}
+
+.button-customize{
+  width: 100px;
+  margin: 0px auto; /* center */
+}
+
+.form-field-group{
+  display: flex;
+}
+/* .form-field-padding{
+  margin-right: 100px;
+} */
+
+.sized-box{
+  border-left: 1px solid #fcfafa;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+/* common for whole application */
+
+
+/* navigation bar */
+.nav-padding{
+  padding-left: 20px;
+}
+.nav-font{
+  font-size: 18px;
+  font-weight: 400;
+}
+.brand-logo{
+  font-size: 38px !important;
+  font-weight: 500;
+}
+/* navigation bar */
+
+/* signIn and signUp */
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  margin: 10px auto;
+}
+.my-card{
+  margin-top: 100px;
+  
+}
+.nav-link{
+  text-align: end;
+}
+input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(127, 169, 233) !important;
+  box-shadow: 0 1px 0 0 rgb(127, 169, 233) !important;
+}
+/* signIn and signUp */
+
+/* profile page */
+.profile-parent{
+  max-width: 850px;
+  margin: 0px auto; /* center */
+}
+
+.profile-info{
+  display: flex;
+  justify-content: space-around;
+  margin: 18px 0px;
+  border-bottom: 1px solid gray;
+  padding-bottom:30px
+}
+
+.profile-pic img{
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+.profile-follower-posts{
+  display: flex;
+  justify-content: space-between;
+  width: 108%;
+  padding-bottom: 20px;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  width: 30%;
+}
+/* profile page */
+
+
+/* Home page */
+.home-post-card{
+  max-width: 750px;
+  height: max-content;
+  margin: 26px auto;
+}
+
+.like-color{
+  color: rgb(218, 70, 70);
+}
+
+.card-img img{
+  height: 550px;
+  width: 750px;
+  /* padding-left: 20px; */
+  object-fit: cover;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  /* margin-right: 20px; */
+  /* width: 600px; */
+}
+
+.post-description{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.post-title{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.posted-by{
+  font-size: 22px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-top: 20px;
+  display:flex;
+  position:relative;
+
+}
+.delete-icon{
+  float:right;
+  right:20px;
+  position:absolute 
+}
+.comment-posted-by{
+  font-weight: 600;
+}
+
+/* Home page */
+
+/* create post page */
+.create-post{
+  margin: 30px auto;
+  max-width: 750px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* create post page */
+
+
+/* update cv page */
+
+.labels{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  padding-top:10px;
+  padding-bottom: 10px;
+  text-align: start;
+}
+
+.experience{
+  float: right;
+}
+hr{
+  margin-top: 50px;
+}
+/* update cv page */
